@@ -47,7 +47,7 @@ import org.bouncycastle.util.io.Streams;
  */
 public class PGP
 {
-    public static BouncyCastleProvider provider = new BouncyCastleProvider();
+    public static final BouncyCastleProvider provider = new BouncyCastleProvider();
 
     static {
         Security.addProvider(provider);
